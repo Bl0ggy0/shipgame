@@ -445,13 +445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a2927b07195f034ab90aec26e0bc7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  Up: {fileID: 0}
-  Down: {fileID: 0}
-  Left: {fileID: 0}
-  Right: {fileID: 0}
-  currentState: 0
-  walkSpeed: 0
-  health: 0
+  moveSpeed: 5
 --- !u!50 &1083427437
 Rigidbody2D:
   serializedVersion: 5
@@ -467,7 +461,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -478,7 +472,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
